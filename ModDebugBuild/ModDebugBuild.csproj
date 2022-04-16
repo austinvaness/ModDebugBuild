@@ -95,7 +95,6 @@
     <Compile Include="Patch_ScriptManager.cs" />
     <Compile Include="Patch_ScriptCompiler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ProtoTagRewriter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -131,10 +131,6 @@ namespace avaness.ModDebugBuild
 
 					using (Stream stream = File.OpenRead(s.Name))
 					{
-						if(s.Name.Contains("settingschat.cs", StringComparison.OrdinalIgnoreCase))
-                        {
-							File.WriteAllText(@"C:\Users\austi\Desktop\SettingsChat.cs", s.Code);
-                        }
 						SourceText source = SourceText.From(stream, canBeEmbedded: true);
 						texts.Add(EmbeddedText.FromSource(s.Name, source));
 						syntaxTrees.Add(CSharpSyntaxTree.ParseText(source, parseOptions, s.Name));

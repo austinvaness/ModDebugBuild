@@ -5,5 +5,3 @@ Additionally, this plugin unloads the modded models when the game unloads. You s
 
 ## Installation
 In order to use this plugin, you should install [Plugin Loader](https://github.com/austinvaness/PluginLoader). After installing Plugin Loader, simply find and enable Mod Debugging in the plugin list from the game menu.
-
-If you wish to use this plugin without Plugin Loader you can, but you will have to compile the dll files yourself using the source code.
